@@ -24,6 +24,7 @@ app.get("/users", (req, res) => {
 });
 app.get("/users/:id", (req, res) => {
     const users = JSON.parse(fs.readFileSync(pathFile));
+    console.log(users);
     const user = users.find((item) => item.id === +req.params.id);
     if (user) {
         res.send({ user });

@@ -1,6 +1,23 @@
-{
+[
+  {
+    "id": 1,
     "name": "Roman",
     "surname": "Petrov",
     "age": 25,
     "city": "Sochi"
-}
+  },
+  {
+    "id": 3,
+    "name": "Roman",
+    "surname": "Petrov",
+    "age": 25,
+    "city": "Sochi"
+  },
+  {
+    "id": 5,
+    "name": "Roman",
+    "surname": "Petrov",
+    "age": 25,
+    "city": "Sochi"
+  }
+]
